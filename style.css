@@ -3,7 +3,7 @@ body, ul, li, p {
     padding: 0px;
     list-style: none;
     font-size: 1.3rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
 }
  
 a {
@@ -18,10 +18,18 @@ header {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
+    
 }
 
 b {
     margin: 10px 10px;
+}
+
+hr {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
 .header-2{
@@ -29,28 +37,20 @@ b {
     background: rgb(255, 196, 0);
     padding: 8px;
     justify-content: space-between;
-   
+}
 
-}
-.menu{
-    display: flex;
-}
-.menu li {
-    margin-left: 10px;
-}
- 
-.menu li a {
-    display: block;
-    padding: 8px;
-    background: rgb(83, 78, 160);
-}
+
 h1{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
     text-align: left;
     margin-top: 100px;
 }
  
 img{
-    max-width: 100%;
+   width: 300px;
     display: block;
 
 }
@@ -62,7 +62,7 @@ img{
 }
  
 .flex>div {
-    flex: 300px;
+    flex: 50px;
     margin: 10px 10px;
    
  
