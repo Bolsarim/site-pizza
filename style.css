@@ -12,14 +12,17 @@ a {
 }
  
 header {
+   
+    max-width: 1200px;
     display: flex;
     background: rgb(192, 31, 31);
-    padding: 30px;
+    padding: 10px;
     align-items: center;
-    flex-wrap: wrap;
     justify-content: space-between;
+   
     
 }
+
 
 b {
     margin: 10px 10px;
@@ -28,17 +31,28 @@ b {
 hr {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1500px;
+    max-width: 1000px;
     margin: 0 auto;
+  
 }
 
 .header-2{
-    display: flex;
+    
+   
+    max-width: 1044px;
+   
     background: rgb(255, 196, 0);
-    padding: 8px;
-    justify-content: space-between;
+    
+    
 }
 
+.container {
+    background-color: white; 
+   
+    flex-wrap: wrap;
+    max-width: 1040px;
+    margin: 0 auto;
+}
 
 h1{
     display: flex;
@@ -69,19 +83,28 @@ img{
 }
  
 body {
+   background-image: url(fundo.jpg);
+   padding: 100%;
+   font-family: "Montserrat";
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 100%
   }
+
+.coluna{
+    column-count: 2;
+}
+
+  .coluna1 {
+    column-count: 3;
+    column-gap: 5;
+    max-width: 700px;
+    margin: 50px;
+  }
+  .coluna2 {
+    
+    column-count: 1;
+    column-gap: 0;
+  }
+
  
-  .banner {
-    width: 100%;
-    max-width: 100%;
-    overflow: hidden;
-  }
- 
-  .banner img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
