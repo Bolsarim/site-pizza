@@ -13,7 +13,7 @@ a {
  
 header {
    
-    max-width: 1200px;
+    max-width: 1250px;
     display: flex;
     background: rgb(192, 31, 31);
     padding: 10px;
@@ -39,7 +39,7 @@ hr {
 .header-2{
     
    
-    max-width: 1044px;
+    max-width: 1250px;
    
     background: rgb(255, 196, 0);
     
@@ -48,9 +48,8 @@ hr {
 
 .container {
     background-color: white; 
-   
     flex-wrap: wrap;
-    max-width: 1040px;
+    max-width: 1250px;
     margin: 0 auto;
 }
 
@@ -66,6 +65,7 @@ h1{
 img{
    width: 300px;
     display: block;
+    border-radius: 50px;
 
 }
 .flex{
@@ -78,6 +78,7 @@ img{
 .flex>div {
     flex: 50px;
     margin: 10px 10px;
+    border-radius: 50px;
    
  
 }
@@ -90,6 +91,7 @@ body {
     padding: 0;
     width: 100%
   }
+  
 
 .coluna{
     column-count: 2;
@@ -103,8 +105,42 @@ body {
   }
   .coluna2 {
     
+    max-width: 500px;
+    margin: 30px;
+    column-count: 1;
+    column-gap: 0;
+    
+  }
+  .conteudo-coluna-2 {
+    display: flex;
+    max-width: 5000px;
+    margin: 50px;
     column-count: 1;
     column-gap: 0;
   }
-
+  .conheca {
+    color: orangered;
+  }
+  .subtitulo {
+  font-size: 25px;
+  padding-top: 20px;
+}
+  .titulo-2 {
+    margin-top: 100px;
+    display: flex;
+    padding-left: 0;
+    padding-top: 50px;
+  }
+  .p {
+    margin-right: 5px;
+  }
+  .rodape {
+    max-width: 1240px;
+    font-size: 10px;
+    background-color: #333333;
+    padding: 5px;
+    color: white;
+    margin: 0 auto;
+    
+  }
  
